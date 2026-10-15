@@ -21,7 +21,7 @@ def get_player_info(Id):
         "Sec-Fetch-Site": "same-origin",
         "User-Agent": "Mozilla/5.0 (Linux; Android 15; RMX5070 Build/UKQ1.231108.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.157 Mobile Safari/537.36",
         "X-Requested-With": "mark.via.gp",
-        "Cookie": "source=mb; region=PK; mspid2=13c49fb51ece78886ebf7108a4907756; _fbp=fb.1.1753985808817.794945392376454660; language=en; datadome=WQaG3HalUB3PsGoSXY3TdcrSQextsSFwkOp1cqZtJ7Ax4YkiERHUgkgHlEAIccQO~w8dzTGM70D9SzaH7vymmEqOrVeX5pIsPVE22Uf3TDu6W3WG7j36ulnTg2DltRO7; session_key=hq02g63z3zjcumm76mafcooitj7nc79y",
+        "Cookie": "source=mb; region=PK; language=en; mspid2=6c3935d39acd5e1f97e1175e3c2eec91; _ga=GA1.1.430001058.1792081040; _fbp=fb.1.1792081040119.481417693715687666; _ga_6F84K2JN88=GS2.1.s1792081039$o1$g1$t1792081044$j55$l0$h0; datadome=RPyZpnJMfRQWHnDlFNBongOkbb4om6dkQGT3rMDUlNi9WdPs1GLLCvEpH6XVsGRc81RXPsNfvi~K1ki~CYqGhZzwWVM0Nm6Wq6xjwXz4kyeST3n_VLc7RAlzL84odxlv; session_key=r7a6jo93g7e0xcgbmqhbb6h7938go1bv",
     }
 
     payload = {
@@ -89,4 +89,4 @@ def check():
         return jsonify({"message": "Error parsing response"}), 200
         
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5050, debug=True)
